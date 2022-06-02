@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react'
 import './App.css';
+import Meals from './components/Meals';
 
 function App() {
+
+
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h2>Check out our 'Order Up' Menu</h2>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          className="Menu"
+          href="/Meals"
         >
-          Learn React
+          View Our highly-rated menu
         </a>
       </header>
     </div>
